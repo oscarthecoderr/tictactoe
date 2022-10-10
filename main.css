@@ -1,0 +1,20 @@
+.cell{
+  width:75px;
+  height:75px;
+  border: 2px solid;
+  font-size: 50px
+}
+h1{
+  text-align: center;
+}
+.field{
+  text-align: center;
+}
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  width:225px;
+  margin: auto
+}
+
