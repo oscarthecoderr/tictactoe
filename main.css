@@ -1,24 +1,51 @@
+body{
+  background-color: #000000;
+  background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+}
+
 .cell{
   width:75px;
   height:75px;
-  border: 2px solid;
+  border: 2px solid red;
   font-size: 50px;
   display:flex;
   justify-content: center;
   padding: 13px;
 }
 h1{
+
+font-family: 'Fuzzy Bubbles', cursive;
   text-align: center;
+  font-size: 100px;
+  background: #291DCF;
+  background: linear-gradient(to right, #291DCF 0%, #FF250D 31%, #F3FF4A 99%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+  
 }
 .field{
   text-align: center;
+
 }
 
 .board{
   display: grid;
   grid-template-columns: repeat(3,auto);
   width:310px;
-  margin: auto
+  margin: auto;
+  border: 3px solid red;
+}
+
+#restartBtn{
+  background-image: url("restartBtnpreview.png");
+  background-repeat: no-repeat;
+  background-color: transparent;
+  cursor: pointer;
+  height: 60px;
+  width: 100px;
+  background-size: contain;
+  border:none;
 }
 
 
